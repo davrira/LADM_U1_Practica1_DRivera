@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/halloween"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halloween 2021"
+        android:textSize="34sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fantasma"
+        android:layout_marginTop="18dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="This is Halloween, this is Halloween
+Pumpkins scream in the dead of night"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="David Rivera Ramirez"
+            android:textSize="28sp"
+            android:textColor="#FFFFFF"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:src="@drawable/casa"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
